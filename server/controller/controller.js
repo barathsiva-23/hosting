@@ -1,5 +1,5 @@
 const accountSid = AC699a3ffcae69f6ff9fa6cb573827366f;
-const authToken = process.env.TWILIO_AUTH_TOKEN;
+const authToken = 48f4f5c7c0826079e8e07cff4861238a;
 const twilio = require('twilio')(accountSid, authToken);
 const crypto = require("crypto")
 const algorithm = "sha256"
